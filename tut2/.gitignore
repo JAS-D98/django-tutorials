@@ -1,0 +1,28 @@
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+*.sqlite3
+
+# Environment variables
+.env
+
+# Django migrations
+*/migrations/
+
+# Static and media files
+staticfiles/
+media/
+
+# Virtual environment
+venv/
+.env/
+
+# IDE and OS files
+.vscode/
+*.swp
+.DS_Store
+.idea/
